@@ -13,5 +13,4 @@ while True:
         s.send('Pong')
         print("Pong", i)
         i+=1
-    print("perando")
     time.sleep(5)
