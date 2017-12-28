@@ -13,8 +13,8 @@ PORT = 1700
 NTP = "pool.ntp.org"
 NTP_PERIOD_S = 3600
 
-WIFI_SSID = 'my-wifi'
-WIFI_PASS = 'my-wifi-password'
+WIFI_SSID = 'TESTES-NASH'
+WIFI_PASS = 'nashifce8556'
 
 # for EU868
 LORA_FREQUENCY = 868100000
