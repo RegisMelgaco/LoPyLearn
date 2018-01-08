@@ -1,4 +1,6 @@
-""" LoPy LoRaWAN Nano Gateway example usage """
+import pycom
+pycom.heartbeat(False)
+pycom.rgbled(0xff00)
 
 import config
 from nanogateway import NanoGateway
@@ -17,5 +19,3 @@ if __name__ == '__main__':
         )
 
     nanogw.start()
-    nanogw._log('You may now press ENTER to enter the REPL')
-    input()
